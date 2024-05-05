@@ -1,0 +1,29 @@
+{
+    "name": "synth8",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node assistant.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/speech": "^6.5.0",
+        "async-sayjs": "^1.0.3",
+        "compromise": "^14.13.0",
+        "discord.js": "^14.11.0",
+        "dotenv": "^16.3.1",
+        "gpt4all": "^2.2.0",
+        "node-llama-cpp": "^2.8.0",
+        "node-notifier": "^10.0.1",
+        "node-record-lpcm16": "^1.0.1",
+        "openai": "^4.40.2",
+        "python-shell": "^5.0.0",
+        "say.js": "^1.4.0"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}

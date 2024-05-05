@@ -1,0 +1,8 @@
+mlx_models
+.hugging_face
+__pycache__
+mlx_models
+node_modules
+weights
+temp_audio.wav
+models
